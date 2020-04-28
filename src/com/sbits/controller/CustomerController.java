@@ -18,13 +18,7 @@ import com.sbits.service.CustomerService;
 public class CustomerController {
 
 	@Autowired 
-	private CustomerService customerService;
-		
-	/*	@RequestMapping("/customerList")
-		public String listCustomer(Model theModel) {
-			return "ListCustomer";                   // list-customer is jsp page name
-		}
-	*/	
+	private CustomerService customerService;	
 		
 		@RequestMapping("/addCustomer")
 		public String displayAddCustomerForm(Model model) {
