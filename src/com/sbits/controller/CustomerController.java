@@ -61,7 +61,7 @@ public class CustomerController {
     	
     	Customer customer=findById(customerId);
     	model.addAttribute("customer",customer);
-    	return "AddCustomer";
+    	return "UpdteCustomer";
     }
     
     @RequestMapping("/deleteRecord")
