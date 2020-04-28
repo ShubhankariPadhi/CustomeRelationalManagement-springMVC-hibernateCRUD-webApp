@@ -66,29 +66,3 @@
 
 
 
-
-<%-- <table  class="table table-borderless ">
-<f:hidden path="id"/>
-<tr>
-<td scope="row">FirstName </td>
-<td><f:input path="first_name" /></td>
-</tr>
-
-<tr>
-<td>LastName </td>
-<td><f:input path="last_name" /></td>
-</tr>
-<tr>
-<td>Email  </td>
-<td><f:input path="email" /></td>
-</tr>
-<tr>
-<td></td>
-<td><input type=submit value=Save> &nbsp;
-<input type="reset" value=Reset>
-</td>
-</tr>
-
-</table>
-
- --%>
